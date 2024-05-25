@@ -1,0 +1,12 @@
+/*Decouverte des attributs id et class  
+id est toujours precede d'un #
+et class est toujours precede d'un . */
+#p1{
+    color: blue;
+}
+.p1{
+    color: brown;
+}
+#para{
+    font-weight: bold;
+}

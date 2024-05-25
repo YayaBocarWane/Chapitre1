@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 40px;
+    background-color: gray;
+    padding: 10px;
+}
+
+ p {
+    font-size: 16px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    font-size: 18px;
+    color: gray;
+    margin: 10px;
+}

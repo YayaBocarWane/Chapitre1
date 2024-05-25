@@ -1,0 +1,16 @@
+body{
+    font-family: 'open sans ',sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    background-color: orange;
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+h1{
+    float: left;
+    
+
+}

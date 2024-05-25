@@ -1,0 +1,78 @@
+.Menu{
+    background-color: burlywood;
+    text-align: center;
+    width: 700px;
+    padding: 20px; 
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1,h2,p{
+    text-align: center;
+}
+h1,h2{
+    font-family: sans-serif;
+}
+.item p{
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.flavour,.dessert{
+    text-align: left;
+    width: 200px;
+}
+.price{
+    text-align: right;
+    width: 200px;
+}
+h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+.established{
+    font-style: italic;
+}
+hr{
+    background-color: brown;
+    height: 3px;
+    border-color: brown;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+
+    /*FOOTER*/
+
+footer{
+    font-size: 18px;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: brown;
+    
+}
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -250x;
+}

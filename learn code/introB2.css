@@ -1,0 +1,4 @@
+/*ci desous la virgule permet de regrouper l'element h et p */
+h1,p{
+    color: blue;
+}

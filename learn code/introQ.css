@@ -1,0 +1,18 @@
+body{
+    font-family: 'open sans',sans-serif;
+}
+p{
+    
+    border: 1px solid black;
+}
+.p1{
+    display: inline-block;
+    width: 65%;
+}
+.p2{
+    display: inline-block;
+    width: 30%;
+}
+h1{
+    display: none;
+}

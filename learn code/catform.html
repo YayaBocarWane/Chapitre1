@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>cat form</h1>
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+       <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+          <label><input type="radio" name="indoor-outdoor"id="indoor"value="indoor" checked>Indoor</label>
+          <label><input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor">Outdoor</label>
+
+      </fieldset>
+      <fieldset>
+        <legend>What's your cat's personality?</legend>
+        <input type="checkbox" id="loving" name="personality?" value="loving" checked><label for="loving">Loving</label>
+        <input type="checkbox"id="lazy"name="personality?" value="lazy"><label for="lazy">Lazy</label>
+        <input type="checkbox"id="energetic"name="personality?" value="energetic"><label for="energetic">Energetic</label>
+      </fieldset>
+      <input type="Text" name="catphotourl" placeholder="cat photo to url"required="">
+      <button>submit</button>
+   </form>
+</body>
+</html>
