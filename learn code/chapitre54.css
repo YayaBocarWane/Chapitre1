@@ -1,0 +1,9 @@
+body{
+    font-family: 'open sans 'sans-serif;
+}
+p:first-child{
+    color: orange;
+}
+p:last-child{
+    color: green;
+}

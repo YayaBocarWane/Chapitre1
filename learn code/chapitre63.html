@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chapitre63.css">
+    <title>Les formulaires</title>
+</head>
+
+<body>
+    <h1>les formulaires</h1>
+    <form action="post" action="traitement.php">
+        <fieldset id="section1">
+            <legend>Informations personnelles</legend><br>
+            <label for="prenom">Enrez votre prenom</label>
+            <input type="text" name="prenom" id="prenom"><br>
+            <label for="nom">Entrez votre nom</label>
+            <input type="text" name="nom" id="nom"><br>
+            <label for="pseudo">Choisissez votre pseudonyme</label>
+            <input type="text" name="pseudo" id="pseudo"><br>
+        </fieldset>
+
+
+        Quels sont vos loisirs <br>
+        <fieldset id="section2">
+            <legend>informations supplementaires </legend>
+            <input type="checkbox" name="hobbies" value="informatique" id="inf">
+            <label for="inf">Informatique</label><br>
+            <input type="checkbox" name="hobbies" value="sport" id="sport">
+            <label for="sport">Sport</label><br>
+            <input type="checkbox" name="hobbies" value="voyage" id="voyage">
+            <label for="voyage">voyage</label><br>
+            <input type="checkbox" name="hobbies" value="Musique" id="Musique">
+            <label for="musique">Musique</label>
+        </fieldset>
+
+        <input type="submit" value="envoyer">
+    </form>
+
+</body>
+
+</html>

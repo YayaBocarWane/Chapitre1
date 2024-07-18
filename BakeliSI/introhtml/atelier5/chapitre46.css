@@ -1,0 +1,36 @@
+body {
+    font-family: 'open sans', sans-serif;
+} 
+table{
+    border-collapse: collapse;
+}
+
+thead th,tfoot td{
+    background-color: aqua;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+th{
+    
+    font-weight: normal;
+}
+
+/* .paire{ */
+        /* background-color:#EEE; */
+/* } */
+/* 
+.impaire{
+    background-color:#CCC;
+} */
+tr:nth-child(even){
+    background-color: #d61818;
+}
+tr:nth-child(odd){
+    background-color: #997a7a;
+}

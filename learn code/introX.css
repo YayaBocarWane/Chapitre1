@@ -1,0 +1,9 @@
+body{
+    font-family: 'open sans',sans-serif;
+}
+.div1{
+    background: -webkit-gradient(top left,red,orange,yellow,blue);
+    background: -o-linear-gradient( bottom right,red,orange,yellow,blue);
+    background: -moz-linear-gradient( bottom right,red,orange,yellow,blue);
+    background: linear-gradient(to bottom right,red,orange,yellow,blue);
+}

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 5px;
+    ;
+}
+
+.container {
+    display: flex;
+    padding: 5px;
+    border: 1px solid black;
+    gap: 10px;
+
+}
+
+/* .................................partie  du sidebar .........................................*/
+aside {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-between;
+    background: #333333;
+    height: 80vh;
+    padding: 40px;
+
+}
+
+aside li a {
+    color: #fff;
+    font-size: 2rem;
+}
+
+/* .....................................partie cote droite ...................................... */
+.right-side {
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+header {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    color: #6767;
+}
+/* .................................................le layout items.............................................. */
+.flex-items{
+    display: flex;
+    gap: 10px;
+    
+}
+.flex-items div{
+    background: #5b5b5b;
+    color: white;
+    padding: 5rem;
+    font-size: 4rem;
+    flex-grow: 1;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

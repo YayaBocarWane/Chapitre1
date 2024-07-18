@@ -1,0 +1,25 @@
+body{
+    font-family: 'open sans 'sans-serif;
+}
+#fb,#tw,#lk{
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+
+}
+#fb{
+    background-image: url(test5.png);
+    background-position: -25px -7px;
+}
+#tw{
+    background-image: url(test5.png);
+    background-position: -286px -7px;
+    left: 200px; ;
+}
+
+#lk{
+    background-image: url(test5.png);
+    background-position: -112px -7px;
+    left: 400px;
+}

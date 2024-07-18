@@ -1,0 +1,12 @@
+body{
+    font-family: 'open sans 'sans-serif;
+}
+div{
+    border: 1px solid black;
+}
+div::before{
+    content: du texte ajoute au debut de mon div ,avec before;
+}
+div::after{
+    content: url(Vinsmoke\ Sanji.jpeg);
+}
